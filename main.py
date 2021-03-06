@@ -29,7 +29,7 @@ def register():
             surname=form.surname.data,
             name=form.name.data,
             email=form.email.data,
-            created_date=datetime.now(),
+            modified_date=datetime.now(),
             age=form.age.data,
             position=form.position.data,
             speciality=form.speciality.data,
